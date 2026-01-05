@@ -1,12 +1,9 @@
-USD_RATE = 12700
-EUR_RATE = 13500
-RUB_RATE = 140
+from  valyuta import *
 
-def usd_uzs(miqdor):
-    return miqdor * USD_RATE
+usd = 100
+eur = 50
+rub = 1000
 
-def eur_uzs(miqdor):
-    return miqdor * EUR_RATE
-
-def rub_uzs(miqdor):
-    return miqdor * RUB_RATE
+print("100 USD =", usd_uzs(usd), "so'm")
+print("50 EUR =", eur_uzs(eur), "so'm")
+print("1000 RUB =", rub_uzs(rub), "so'm")
